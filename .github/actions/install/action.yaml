@@ -12,11 +12,11 @@ runs:
         package_json_file: package.json
         version: 8
 
-    - name: Setup Node
-      uses: actions/setup-node@v3
-      with:
-        node-version: 19
-        cache: pnpm
+    # - name: Setup Node
+    #   uses: actions/setup-node@v3
+    #   with:
+    #     node-version: 19
+    #     cache: pnpm
 
     - name: Install dependencies
       run: pnpm install
