@@ -64,6 +64,7 @@ export const App = () => {
                     href="https://warpcast.com/luc.eth"
                     target="_blank"
                     rel="noreferrer"
+                    className="link"
                 >
                     luc.eth
                 </a>

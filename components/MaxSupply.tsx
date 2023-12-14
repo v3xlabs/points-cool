@@ -14,12 +14,43 @@ export const MaxSupply = () => {
 
     return (
         <div>
-            <h2>Max Supply</h2>
+            <h2 className="flex gap-2">
+                <span className="line-through">Max Supply</span>
+                <a
+                    href="https://etherscan.io/tx/0x3eb38ebce80d0f6a82748134e168ce0bc8138f01bf0f2b64fb22457ef7b2388b"
+                    target="_blank"
+                    className="link"
+                    rel="noreferrer"
+                >
+                    - 750,000,000 burn
+                </a>
+            </h2>
             <p className="text-right">
-                {isLoading && 'Loading...'}
-                {data && (
-                    <span>{(data / BigInt(10 ** 18)).toLocaleString()}</span>
-                )}
+                <span>
+                    {isLoading && 'Loading...'}
+                    {data && (
+                        <span>
+                            {(data / BigInt(10 ** 18)).toLocaleString()}
+                        </span>
+                    )}
+                </span>
+                <br />
+                <a
+                    href="https://etherscan.io/tx/0x3eb38ebce80d0f6a82748134e168ce0bc8138f01bf0f2b64fb22457ef7b2388b"
+                    target="_blank"
+                    className="link"
+                    rel="noreferrer"
+                >
+                    - {750_000_000n.toLocaleString()}
+                </a>
+                <br />
+                <span>
+                    {data &&
+                        (
+                            data / BigInt(10 ** 18) -
+                            750_000_000n
+                        ).toLocaleString()}
+                </span>
             </p>
         </div>
     );

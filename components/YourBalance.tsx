@@ -37,7 +37,7 @@ export const YourBalance = () => {
                 {address ? (
                     <span>{nb.toLocaleString()} $points</span>
                 ) : (
-                    <span>👇</span>
+                    <span>🤷‍♀️</span>
                 )}
             </p>
         </div>
