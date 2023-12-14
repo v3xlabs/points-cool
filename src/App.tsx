@@ -14,7 +14,7 @@ export const App = () => {
     const { address } = useAccount();
 
     return (
-        <div className="w-full max-w-lg mx-auto bg-ens-light-background-primary border rounded-lg border-ens-light-border p-6 space-y-4">
+        <div className="w-full max-w-lg mx-auto bg-ens-light-background-primary border rounded-xl border-ens-light-border p-6 space-y-4">
             <div className="flex justify-between">
                 <h1>
                     $points{' '}
