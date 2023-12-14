@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+    @apply font-bold text-blue-500 hover:underline cursor-pointer;
+}
+
+body {
+    @apply  p-4 bg-ens-light-background-secondary;
+}
+
+h2 {
+    @apply font-bold;
+}
+
+h1 {
+    @apply font-bold text-xl;
+}
