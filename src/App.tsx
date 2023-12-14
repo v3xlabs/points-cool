@@ -32,6 +32,10 @@ export const App = () => {
                     <FiExternalLink className="inline-block ml-1" />
                 </a>
             </div>
+            <p>
+                Not farcaster affiliated, yet the first/best farcaster memecoin
+                to date. Join the fun, give it a run, and plz touch grass.
+            </p>
             <div>
                 <MaxSupply />
             </div>
