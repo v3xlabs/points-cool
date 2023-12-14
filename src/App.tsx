@@ -88,7 +88,7 @@ export const App = () => {
             <div className="mx-auto flex items-center justify-center gap-2">
                 <span>made with</span>
                 <a href="https://v3x.fyi/s1" target="_blank" rel="noreferrer">
-                    <img src="/public/rick.png" className="h-8" alt="love" />
+                    <img src="/rick.png" className="h-8" alt="love" />
                 </a>
                 <span>by</span>
                 <a
