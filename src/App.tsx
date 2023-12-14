@@ -14,35 +14,60 @@ export const App = () => {
     const { address } = useAccount();
 
     return (
-        <div className="w-full max-w-lg mx-auto bg-ens-light-background-primary border rounded-xl border-ens-light-border p-6 space-y-4">
-            <div className="flex justify-between">
-                <h1>
-                    $points{' '}
-                    <span className="text-sm font-normal text-ens-light-pink-primary">
-                        are cool
-                    </span>
-                </h1>
+        <div className="w-full max-w-lg mx-auto space-y-3">
+            <div className="w-full bg-ens-light-background-primary border rounded-xl border-ens-light-border p-6 space-y-4">
+                <div className="flex justify-between">
+                    <h1>
+                        $points{' '}
+                        <span className="text-sm font-normal text-ens-light-pink-primary">
+                            are cool
+                        </span>
+                    </h1>
+                    <a
+                        href="https://etherscan.io/token/0xd7C1EB0fe4A30d3B2a846C04aa6300888f087A5F"
+                        target="_blank"
+                        className="text-sm link"
+                        rel="noreferrer"
+                    >
+                        View on etherscan
+                        <FiExternalLink className="inline-block ml-1" />
+                    </a>
+                </div>
+                <p>
+                    Not farcaster affiliated, yet the first/best farcaster
+                    memecoin to date. Join the fun, give it a run, and plz touch
+                    grass.
+                </p>
+                <div>
+                    <MaxSupply />
+                </div>
+                <div>
+                    <YourBalance />
+                </div>
                 <a
-                    href="https://etherscan.io/token/0xd7C1EB0fe4A30d3B2a846C04aa6300888f087A5F"
+                    href="https://app.uniswap.org/swap"
                     target="_blank"
-                    className="text-sm link"
+                    rel="noreferrer"
+                    className="justify-center w-full px-6 py-3 flex gap-2 items-center bg-ens-light-pink-bright hover:bg-ens-light-pink-primary text-white font-bold text-center rounded-lg active:bg-ens-light-pink-active"
+                >
+                    Trade on Uniswap <FiExternalLink />
+                </a>
+                <ConnectButton />
+            </div>
+            <div className="mx-auto flex items-center justify-center gap-2">
+                <span>made with</span>
+                <a href="https://v3x.fyi/s1" target="_blank" rel="noreferrer">
+                    <img src="/public/rick.png" className="h-8" alt="love" />
+                </a>
+                <span>by</span>
+                <a
+                    href="https://warpcast.com/luc.eth"
+                    target="_blank"
                     rel="noreferrer"
                 >
-                    View on etherscan
-                    <FiExternalLink className="inline-block ml-1" />
+                    luc.eth
                 </a>
             </div>
-            <p>
-                Not farcaster affiliated, yet the first/best farcaster memecoin
-                to date. Join the fun, give it a run, and plz touch grass.
-            </p>
-            <div>
-                <MaxSupply />
-            </div>
-            <div>
-                <YourBalance />
-            </div>
-            <ConnectButton />
         </div>
     );
 };
