@@ -38,6 +38,19 @@ export const App = () => {
                     memecoin to date. Join the fun, give it a run, and plz touch
                     grass.
                 </p>
+                <p>
+                    Started by{' '}
+                    <a
+                        href="https://warpcast.com/iammatthias.eth"
+                        target="_blank"
+                        className="link"
+                        rel="noreferrer"
+                    >
+                        iammatthias.eth
+                    </a>{' '}
+                    at{' '}
+                    <a href="https://points-token.vercel.app/">points-token</a>
+                </p>
                 <div>
                     <MaxSupply />
                 </div>
@@ -52,6 +65,24 @@ export const App = () => {
                 >
                     Trade on Uniswap <FiExternalLink />
                 </a>
+                <div className="grid grid-cols-2 gap-4">
+                    <a
+                        href="https://dexscreener.com/ethereum/0xa424817985051ccda51eff2dc7998b5d68079215"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="justify-center w-full px-6 py-3 flex gap-2 items-center bg-ens-light-indigo-bright hover:bg-ens-light-indigo-primary text-white font-bold text-center rounded-lg active:bg-ens-light-indigo-active"
+                    >
+                        Dexscreener <FiExternalLink />
+                    </a>
+                    <a
+                        href="https://www.geckoterminal.com/eth/pools/0xa424817985051ccda51eff2dc7998b5d68079215"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="justify-center w-full px-6 py-3 flex gap-2 items-center bg-ens-light-green-bright hover:bg-ens-light-green-primary text-white font-bold text-center rounded-lg active:bg-ens-light-green-active"
+                    >
+                        CoinGecko <FiExternalLink />
+                    </a>
+                </div>
                 <ConnectButton />
             </div>
             <div className="mx-auto flex items-center justify-center gap-2">
