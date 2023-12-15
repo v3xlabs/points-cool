@@ -2,6 +2,7 @@ import { FiExternalLink } from 'react-icons/fi';
 import { useAccount } from 'wagmi';
 
 import { ConnectButton } from '../components/ConnectButton';
+import { DonatePoints } from '../components/DonatePoints';
 import { MaxSupply } from '../components/MaxSupply';
 import { YourBalance } from '../components/YourBalance';
 
@@ -56,6 +57,9 @@ export const App = () => {
                 </div>
                 <div>
                     <YourBalance />
+                </div>
+                <div>
+                    <DonatePoints />
                 </div>
                 <a
                     href="https://app.uniswap.org/swap"
