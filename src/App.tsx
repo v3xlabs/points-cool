@@ -58,9 +58,11 @@ export const App = () => {
                 <div>
                     <YourBalance />
                 </div>
-                <div>
-                    <DonatePoints />
-                </div>
+                {address && (
+                    <div>
+                        <DonatePoints />
+                    </div>
+                )}
                 <a
                     href="https://app.uniswap.org/swap"
                     target="_blank"
