@@ -22,7 +22,7 @@ export const MaxSupply = () => {
                     className="link"
                     rel="noreferrer"
                 >
-                    - 751,000,000 burn
+                    - 750,000,000 burn
                 </a>
                 <a
                     href="https://etherscan.io/tx/0xf317e7f94f5cf595d7a1e3be75d3d00425bd5f199a0419780431d587eb29f300"
