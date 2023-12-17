@@ -122,7 +122,7 @@ export const App = () => {
                     </a>
                 </div>
                 <a
-                    href="https://explorer.vote/organizations/show/#/8fc30a4c3d11b3b866947c29e4a5525d71f1ff33"
+                    href="https://onvote.app/organization/0x8fc30a4c3d11b3b866947c29e4a5525d71f1ff33"
                     target="_blank"
                     rel="noreferrer"
                     className="justify-center w-full px-6 py-3 flex gap-2 items-center bg-ens-light-pink-bright hover:bg-ens-light-pink-primary text-white font-bold text-center rounded-lg active:bg-ens-light-pink-active"
