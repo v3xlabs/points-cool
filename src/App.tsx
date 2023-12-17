@@ -88,8 +88,47 @@ export const App = () => {
                     >
                         CoinGecko <FiExternalLink />
                     </a>
+                    <a
+                        href="https://twitter.com/PointsMemeCoin"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="justify-center w-full px-6 py-3 flex gap-2 items-center bg-ens-light-blue-bright hover:bg-ens-light-blue-primary text-white font-bold text-center rounded-lg active:bg-ens-light-blue-active"
+                    >
+                        X <FiExternalLink />
+                    </a>
+                    <a
+                        href="https://dune.com/isiain/memepoints"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="justify-center w-full px-6 py-3 flex gap-2 items-center bg-ens-light-orange-bright hover:bg-ens-light-orange-primary text-white font-bold text-center rounded-lg active:bg-ens-light-orange-active"
+                    >
+                        DuneDashboard <FiExternalLink />
+                    </a>
+                    <a
+                        href="https://t.me/pointserc20"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="justify-center w-full px-6 py-3 flex gap-2 items-center bg-ens-light-blue-bright hover:bg-ens-light-blue-primary text-white font-bold text-center rounded-lg active:bg-ens-light-blue-active"
+                    >
+                        Telegram Group <FiExternalLink />
+                    </a>
+                    <a
+                        href="https://warpcast.com/~/channel/points"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="justify-center w-full px-6 py-3 flex gap-2 items-center bg-ens-light-purple-bright hover:bg-ens-light-purple-primary text-white font-bold text-center rounded-lg active:bg-ens-light-purple-active"
+                    >
+                        Farcaster Channel <FiExternalLink />
+                    </a>
                 </div>
-                <ConnectButton />
+                <a
+                    href="https://explorer.vote/organizations/show/#/8fc30a4c3d11b3b866947c29e4a5525d71f1ff33"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="justify-center w-full px-6 py-3 flex gap-2 items-center bg-ens-light-pink-bright hover:bg-ens-light-pink-primary text-white font-bold text-center rounded-lg active:bg-ens-light-pink-active"
+                >
+                    Vote for the future of $POINTS on OnVote <FiExternalLink />
+                </a>
             </div>
             <div className="mx-auto flex items-center justify-center gap-2">
                 <span>made with</span>
