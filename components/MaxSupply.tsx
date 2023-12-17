@@ -22,7 +22,15 @@ export const MaxSupply = () => {
                     className="link"
                     rel="noreferrer"
                 >
-                    - 750,000,000 burn
+                    - 751,000,000 burn
+                </a>
+                <a
+                    href="https://etherscan.io/tx/0xf317e7f94f5cf595d7a1e3be75d3d00425bd5f199a0419780431d587eb29f300"
+                    target="_blank"
+                    className="link"
+                    rel="noreferrer"
+                >
+                    - 1,000,000 burn
                 </a>
             </h2>
             <p className="text-right">
@@ -44,11 +52,20 @@ export const MaxSupply = () => {
                     - {750_000_000n.toLocaleString()}
                 </a>
                 <br />
+                <a
+                    href="https://etherscan.io/tx/0xf317e7f94f5cf595d7a1e3be75d3d00425bd5f199a0419780431d587eb29f300"
+                    target="_blank"
+                    className="link"
+                    rel="noreferrer"
+                >
+                    - {1_000_000n.toLocaleString()}
+                </a>
+                <br />
                 <span>
                     {data &&
                         (
                             data / BigInt(10 ** 18) -
-                            750_000_000n
+                            750_000_000n - 1_000_000n
                         ).toLocaleString()}
                 </span>
             </p>
