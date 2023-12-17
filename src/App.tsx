@@ -64,12 +64,12 @@ export const App = () => {
                     </div>
                 )}
                 <a
-                    href="https://app.uniswap.org/swap"
+                    href="https://swap.cow.fi/#/1/swap/eth/0xd7C1EB0fe4A30d3B2a846C04aa6300888f087A5F"
                     target="_blank"
                     rel="noreferrer"
                     className="justify-center w-full px-6 py-3 flex gap-2 items-center bg-ens-light-pink-bright hover:bg-ens-light-pink-primary text-white font-bold text-center rounded-lg active:bg-ens-light-pink-active"
                 >
-                    Trade on Uniswap <FiExternalLink />
+                    Trade on CowSwap to be MEV protected <FiExternalLink />
                 </a>
                 <div className="grid grid-cols-2 gap-4">
                     <a
